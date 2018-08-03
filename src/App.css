@@ -1,3 +1,16 @@
 /* 6. Write CSS rules that cause the header and .collage div to be centered on the page */
+header{
+    text-align: center;
+}
 
+.collage{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;    
+}
 /* 7. Write CSS rules that ensure that no more than 4 photos appear on a row */
+
+        /* MVP for step 7 is met with my code in step 6.
+        It always displays 4 photos. 
+        I will come back and apply flexbox at a later date. */
